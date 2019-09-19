@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo "Hola Mon!"; ?>
+    <?php $nom = 'Gerard'; ?>
+
+    <?= "Hola $nom!"; ?>
+
 </body>
 </html>
