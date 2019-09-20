@@ -3,13 +3,13 @@
 //ARRAYS
 
 $name = [
-    'Sergi'
-    'Karim'
-    'Joan'
-    'Carlos'
-    'Genís'
-    'Ayram'
-    'Gerard'
+    'Sergi',
+    'Karim',
+    'Joan',
+    'Carlos',
+    'Genís',
+    'Ayram',
+    'Gerard',
     'Dídac'
 ];
 
