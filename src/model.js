@@ -1,3 +1,9 @@
 const name = 'Gerard';
 
-export {name};
+const task = {
+    name: 'Comprar Pa',
+    description: 'Al Mercadona',
+    completed: false,
+}
+
+export {name, task};
