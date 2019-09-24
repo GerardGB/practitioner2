@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <h1><?= $task['name'] ?></h1>
     <ul>
-    <?php
-        foreach($classe as $persona) {
-        echo "<li>Hola $persona</li>";
-        }
-        ?>
+        <li>Descripció: <?= $task['description'] ?></li>
+        <li>Completada: 
+            <?= $task['completed'] ? Sí : Nop ?>
+        </li>
     </ul>
 </body>
 </html>
