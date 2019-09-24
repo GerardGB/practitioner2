@@ -95,10 +95,25 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-!(function webpackMissingModule() { var e = new Error("Cannot find module './js/templates/greeting'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _templates_greeting__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./templates/greeting */ "./src/templates/greeting.js");
 var name = 'Gerard';
 
-document.body.innerHTML = !(function webpackMissingModule() { var e = new Error("Cannot find module './js/templates/greeting'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+console.log(_templates_greeting__WEBPACK_IMPORTED_MODULE_0__["default"]);
+document.body.innerHTML = _templates_greeting__WEBPACK_IMPORTED_MODULE_0__["default"];
+
+/***/ }),
+
+/***/ "./src/templates/greeting.js":
+/*!***********************************!*\
+  !*** ./src/templates/greeting.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var template = "\n<h1>Hola ".concat(name, "</h1>\n");
+/* harmony default export */ __webpack_exports__["default"] = (template);
 
 /***/ }),
 

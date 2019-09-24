@@ -1,5 +1,7 @@
 const name = 'Gerard';
 
-import greeting from './js/templates/greeting'
+import greeting from './templates/greeting'
 
+
+console.log(greeting);
 document.body.innerHTML = greeting;
