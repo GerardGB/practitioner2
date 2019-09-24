@@ -1,5 +1,7 @@
+//const name = 'Gerard';
+import { name } from '../model'
 const template = `
-<h1>Hola ${name}</h1>
+<h1>Hola ${name}!</h1>
 `;
 
-export default template;
+export { template }

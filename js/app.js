@@ -90,14 +90,47 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var name = 'Gerard'; //import greeting from './templates/greeting'
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _templates_greeting__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./templates/greeting */ "./src/templates/greeting.js");
 
-var greeting = "\n<h1>Hola ".concat(name, "</h1>\n");
-console.log(greeting);
-document.body.innerHTML = greeting;
+document.body.innerHTML = _templates_greeting__WEBPACK_IMPORTED_MODULE_0__["template"];
+
+/***/ }),
+
+/***/ "./src/model.js":
+/*!**********************!*\
+  !*** ./src/model.js ***!
+  \**********************/
+/*! exports provided: name */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "name", function() { return name; });
+var name = 'Gerard';
+
+
+/***/ }),
+
+/***/ "./src/templates/greeting.js":
+/*!***********************************!*\
+  !*** ./src/templates/greeting.js ***!
+  \***********************************/
+/*! exports provided: template */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "template", function() { return template; });
+/* harmony import */ var _model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../model */ "./src/model.js");
+//const name = 'Gerard';
+
+var template = "\n<h1>Hola ".concat(_model__WEBPACK_IMPORTED_MODULE_0__["name"], "!</h1>\n");
+
 
 /***/ }),
 
